@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <section class="hero-container">
-      <div class="hero is-success is-medium">
+      <div class="hero is-primary is-medium">
         <div class="hero-body">
           <div class="container is-small has-text-centered">
             <h1 class="title is-1 is-spaced">
@@ -127,7 +127,7 @@ export default {
   font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-.hero.is-success {
+.hero.is-primary {
   background-color: #0a0a0a;
   color: #fff;
 }
