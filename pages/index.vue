@@ -139,13 +139,21 @@
 </script>
 
 <style>
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+#main {
+  font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
 .hero.is-success {
   background-color: #0a0a0a;
   color: #fff;
 }
+
 .body-title {
   margin-bottom: 5rem;
 }
+
 .has-padding-30 {
   padding: 30px !important;
 }
