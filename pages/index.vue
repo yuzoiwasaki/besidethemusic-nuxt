@@ -1,72 +1,72 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        besidethemusic
-      </h1>
-      <h2 class="subtitle">
-        My sweet Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div id="main">
+    <section class="hero-container">
+      <div class="hero is-success is-medium">
+        <div class="hero-body">
+          <div class="container is-small has-text-centered">
+            <h1 class="title is-2 is-spaced">
+              Beside the Music
+            </h1>
+            <h2 class="subtitle">
+              みんなで音楽を支援しよう！いつも音楽のそばに
+            </h2>
+        </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section class="section has-background-white is-medium">
+      <div class="container is-small has-text-centered">
+        <div class="columns">
+          <div class="column is-half is-offset-one-quarter">
+            <h3 class="title is-spaced body-title">
+              現在クラウドファンディング実施中のライブハウス一覧
+            </h3>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <p class="title is-5 is-spaced">
+              LIVE ROPPONGI BUZZ 救済　プロジェクト
+            </p>
+            <p class="subtitle is-6">
+              六本木のライブバー「BUZZ」は新型コロナウィルスの影響による感染拡大防止に努め、3月4日より営業を自粛しています。このままでは廃業しかねない状況に追い込まれています。そこでBUZZ救済を求めて、このプロジェクトを立ち上げました。笑顔溢れる楽しいステージを再び皆様と共有したいと思います。
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/251897/widget" width="245"></iframe>
+          </div>
+          <div class="column">
+            <p class="title is-5 is-spaced">
+              LIVE ROPPONGI BUZZ 救済　プロジェクト
+            </p>
+            <p class="subtitle is-6">
+              六本木のライブバー「BUZZ」は新型コロナウィルスの影響による感染拡大防止に努め、3月4日より営業を自粛しています。このままでは廃業しかねない状況に追い込まれています。そこでBUZZ救済を求めて、このプロジェクトを立ち上げました。笑顔溢れる楽しいステージを再び皆様と共有したいと思います。
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/251897/widget" width="245"></iframe>
+          </div>
+          <div class="column">
+            <p class="title is-5 is-spaced">
+              LIVE ROPPONGI BUZZ 救済　プロジェクト
+            </p>
+            <p class="subtitle is-6">
+              六本木のライブバー「BUZZ」は新型コロナウィルスの影響による感染拡大防止に努め、3月4日より営業を自粛しています。このままでは廃業しかねない状況に追い込まれています。そこでBUZZ救済を求めて、このプロジェクトを立ち上げました。笑顔溢れる楽しいステージを再び皆様と共有したいと思います。
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/251897/widget" width="245"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.hero.is-success {
+  background-color: #1d9c00;
+  color: #fff;
 }
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.body-title {
+  margin-bottom: 5rem;
 }
 </style>
