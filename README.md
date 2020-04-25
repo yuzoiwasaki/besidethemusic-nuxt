@@ -1,6 +1,6 @@
 # besidethemusic
 
-> My sweet Nuxt.js project
+[besidethemusic.tokyo](https://besidethemusic.tokyo)
 
 ## Build Setup
 

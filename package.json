@@ -1,7 +1,7 @@
 {
   "name": "besidethemusic",
   "version": "1.0.0",
-  "description": "My sweet Nuxt.js project",
+  "description": "みんなで音楽を支援しよう！いつも音楽のそばに",
   "author": "yuzoiwasaki",
   "private": true,
   "scripts": {
