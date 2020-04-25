@@ -41,6 +41,15 @@
         <div class="columns is-multiline">
           <div class="column is-3 has-padding-30">
             <p class="title is-5 is-spaced">
+              思い出野郎Aチーム presents ソウルピクニック・ファンディング
+            </p>
+            <p class="subtitle is-6">
+              誰もが集まれる場所を守るために。思い出野郎Aチームが主催する支援プロジェクト「ソウルピクニック・ファンディング」
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/261880/widget" width="245"></iframe>
+          </div>
+          <div class="column is-3 has-padding-30">
+            <p class="title is-5 is-spaced">
               UNDERBAR UNDERDEERLOUNGE支援プロジェクト
             </p>
             <p class="subtitle is-6">
@@ -59,12 +68,30 @@
           </div>
           <div class="column is-3 has-padding-30">
             <p class="title is-5 is-spaced">
+              東京都八王子市のライブハウス、八王子papaBeatを継続させたい。
+            </p>
+            <p class="subtitle is-6">
+              新型コロナの影響により、存続の危機を迎えています。私たちにとって大切なこの場所を、なんとか存続させたい。一方で、自粛要請にも「応じたい」とも考えています。ライブハウスがクラスター感染の発生源になることは、決して望んではいません。「自粛」と「存続」の両立のため、ご支援を募ることとしました。
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/252263/widget" width="245"></iframe>
+          </div>
+          <div class="column is-3 has-padding-30">
+            <p class="title is-5 is-spaced">
               代々木ライブハウス救済プロジェクト
             </p>
             <p class="subtitle is-6">
               代々木で運営している経営母体の違うライブハウスを支援するプロジェクト対象となる会場は下記となります。 1.LIVE labo YOYOGI 2.Zher the ZOO YOYOGI 3.アルティカセブン 4.ライブハウス代々木Barbara
             </p>
             <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/256767/widget" width="245"></iframe>
+          </div>
+          <div class="column is-3 has-padding-30">
+            <p class="title is-5 is-spaced">
+              SAVE OUR SHOW! 珈琲美学～緊急支援！またこの場所でライブをやろう！
+            </p>
+            <p class="subtitle is-6">
+              目黒区学芸大学駅近くにあるライブハウス「珈琲美学」。42年間ご夫婦で営業しているこの店は日頃から若いミュージシャンからプロのミュージシャンのライブをサポート。いつも全力で音楽を愛する人々の憩いの場、表現の場としてお店を営業。高齢のママとマスターを休業の間支援したいと思いこの企画を立ち上げました。
+            </p>
+            <iframe frameborder="0" height="365" scrolling="no" src="https://camp-fire.jp/projects/251951/widget" width="245"></iframe>
           </div>
           <div class="column is-3 has-padding-30">
             <p class="title is-5 is-spaced">
