@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Hero from '@/components/hero.vue'
+import Hero from '@/components/Hero.vue'
 import Statement from '@/components/Statement.vue'
 import SupportSite from '@/components/SupportSite.vue'
 import Crowdfunding from '@/components/Crowdfunding.vue'
