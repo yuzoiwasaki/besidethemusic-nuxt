@@ -1,7 +1,7 @@
 {
   "name": "besidethemusic",
   "version": "1.0.0",
-  "description": "みんなで音楽を支援しよう！いつも音楽のそばに",
+  "description": "コロナウイルスで苦しんでいるライブハウスを支援するためのまとめサイト。みんなで音楽を支援しよう！いつも音楽のそばに",
   "author": "yuzoiwasaki",
   "private": true,
   "scripts": {
