@@ -25,7 +25,6 @@ import ProjectCard from '@/components/ProjectCard.vue'
 import projects from '@/assets/data/project.json'
 
 export default {
-  name: 'Crowdfunding',
   components: {
     ProjectCard
   },
@@ -36,6 +35,3 @@ export default {
   }
 }
 </script>
-
-<style>
-</style>

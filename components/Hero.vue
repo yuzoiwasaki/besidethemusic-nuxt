@@ -15,12 +15,6 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'Hero'
-}
-</script>
-
 <style>
 .hero.is-primary {
   background-color: #0a0a0a;

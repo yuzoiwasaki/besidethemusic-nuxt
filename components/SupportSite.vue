@@ -63,12 +63,6 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'SupportSite'
-}
-</script>
-
 <style>
 #support-site {
   padding-top: 9rem;
