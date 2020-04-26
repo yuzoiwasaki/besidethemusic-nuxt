@@ -1,4 +1,4 @@
-# besidethemusic
+# besidethemusic-nuxt
 
 Summary site that supports live houses from COVID-19
 
