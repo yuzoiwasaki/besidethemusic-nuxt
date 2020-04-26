@@ -31,11 +31,43 @@
 
     <section class="section has-background-white is-medium">
       <div class="container is-small has-text-centered">
-        <div class="columns">
+        <div id="sites" class="columns">
           <div class="column is-half is-offset-one-quarter">
             <h3 class="title is-spaced body-title">
-              現在クラウドファンディング実施中の東京のライブハウス一覧
+              ライブハウス支援サイト一覧
             </h3>
+          </div>
+        </div>
+        <div class="columns is-spaced">
+          <div class="column is-6 centered">
+            <a href="https://savelivehouse.com" target="_blank">
+              <figure class="image">
+                <img src="https://savelivehouse.com/assets/img/ogp.png">
+              </figure>
+            </a>
+          </div>
+          <div class="column is-6">
+            <p class="title is-5 is-spaced">
+              MUSIC UNITES AGAINST COVID-19
+            </p>
+            <p class="subtitle is-6">
+              MUSIC UNITES AGAINST COVID-19 フォルダのアクセス権をダウンロード購入することで、自分が応援したいライブハウスを支援することができます<br>
+              5種類の価格の中から自分が支援したい金額を選んで購入できます<br>
+              どこのストアでどの金額で購入しても商品内容は同じです<br>
+              <br>
+              フォルダの中には「プロジェクトに賛同した約70組のミュージシャンが提供する楽曲データ」が置いてあります<br>
+              これらは皆さまの支援へのお礼です<br>
+              期間内(2020年6月末日まで)であれば好きな時に聴いて楽しむことができます<br>
+              <br>
+              <a href="https://savelivehouse.com" target="_blank">https://savelivehouse.com</a>
+            </p>
+          </div>
+        </div>
+        <div id="crowdfunding" class="columns">
+          <div class="column is-half is-offset-one-quarter">
+            <h4 class="title is-spaced body-title">
+              現在クラウドファンディング実施中の東京のライブハウス一覧
+            </h4>
           </div>
         </div>
         <div class="columns is-multiline">
@@ -81,5 +113,9 @@ export default {
 
 .body-title {
   margin-bottom: 5rem;
+}
+
+#crowdfunding {
+  margin-top: 5rem;
 }
 </style>
