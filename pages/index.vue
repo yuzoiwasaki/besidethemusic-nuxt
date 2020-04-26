@@ -1,20 +1,6 @@
 <template>
   <div id="main">
-    <section id="hero" class="hero-container">
-      <div class="hero is-primary is-medium">
-        <div class="hero-body">
-          <div class="container is-small has-text-centered">
-            <h1 class="title is-1 is-spaced">
-              Beside the Music
-            </h1>
-            <h2 class="subtitle">
-              みんなで音楽を支援しよう！いつも音楽のそばに
-            </h2>
-        </div>
-        </div>
-      </div>
-    </section>
-
+    <Hero />
     <Statement />
 
     <section id="support-sites" class="section has-background-white">
@@ -103,12 +89,14 @@
 </template>
 
 <script>
+import Hero from '@/components/hero.vue'
 import Statement from '@/components/Statement.vue'
 import ProjectCard from '@/components/ProjectCard.vue'
 import projects from '@/assets/data/project.json'
 
 export default {
   components: {
+    Hero,
     Statement,
     ProjectCard
   },
@@ -125,11 +113,6 @@ export default {
 
 #main {
   font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
-.hero.is-primary {
-  background-color: #0a0a0a;
-  color: #fff;
 }
 
 #support-sites {
