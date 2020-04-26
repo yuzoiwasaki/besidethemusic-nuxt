@@ -31,14 +31,14 @@
 
     <section class="section has-background-white is-medium">
       <div class="container is-small has-text-centered">
-        <div id="sites" class="columns">
+        <div class="columns">
           <div class="column is-half is-offset-one-quarter">
             <h3 class="title is-spaced body-title">
               ライブハウス支援サイト一覧
             </h3>
           </div>
         </div>
-        <div class="columns is-spaced">
+        <div class="columns is-spaced sites">
           <div class="column is-6 centered">
             <a href="https://savelivehouse.com" target="_blank">
               <figure class="image">
@@ -63,20 +63,49 @@
             </p>
           </div>
         </div>
-        <div id="crowdfunding" class="columns">
-          <div class="column is-half is-offset-one-quarter">
-            <h4 class="title is-spaced body-title">
-              現在クラウドファンディング実施中の東京のライブハウス一覧
-            </h4>
+        <div class="columns is-spaced sites">
+          <div class="column is-6">
+            <p class="title is-5 is-spaced">
+              SAVE THE LIVEHOUSE
+            </p>
+            <p class="subtitle is-6">
+              "SAVE THE LIVEHOUSE"とは？<br>
+              全国のライブハウスにドリンク代金を事前に支払うことでライブハウスを応援することができるサービスです。<br>
+              <br>
+              新型コロナウィルスの影響により営業自粛を余儀なくされ全国的に経済的な打撃を受けているライブハウス。この状態が続けば多くのライブハウスが閉店せざるを得ない状況です。<br>
+              <br>
+              また以前と同じようにライブハウスで音楽を楽しめるように。ライブハウスが今を乗り越えられるように。ひとりひとりが直接応援できるプラットフォームを立ち上げました。<br>
+              <br>
+              （支払われた代金はすぐにライブハウスの元に届きます！）<br>
+              <br>
+              <a href="https://savelivethehouse.com" target="_blank">https://savelivethehouse.com</a>
+            </p>
+          </div>
+          <div class="column is-6 centered">
+            <a href="https://savelivethehouse.com" target="_blank">
+              <figure class="image container">
+                <img src="https://savethelivehouse.com/img/logo/logo_2.png">
+              </figure>
+            </a>
           </div>
         </div>
-        <div class="columns is-multiline">
-          <ProjectCard
-            v-for="project in projects"
-            :title="project.title"
-            :caption="project.caption"
-            :project-id="project.id"
-          />
+
+        <div id="crowdfunding">
+          <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+              <h4 class="title is-spaced body-title">
+                現在クラウドファンディング実施中の東京のライブハウス一覧
+              </h4>
+            </div>
+          </div>
+          <div class="columns is-multiline">
+            <ProjectCard
+              v-for="project in projects"
+              :title="project.title"
+              :caption="project.caption"
+              :project-id="project.id"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +144,16 @@ export default {
   margin-bottom: 5rem;
 }
 
+.sites {
+  margin-bottom: 5rem !important;
+}
+
+.image.container {
+  height: 256px;
+  width: 256px;
+}
+
 #crowdfunding {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 </style>
