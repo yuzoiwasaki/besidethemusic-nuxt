@@ -1,6 +1,6 @@
 <template>
   <div id="main">
-    <section class="hero-container">
+    <section id="hero" class="hero-container">
       <div class="hero is-primary is-medium">
         <div class="hero-body">
           <div class="container is-small has-text-centered">
@@ -15,7 +15,7 @@
       </div>
     </section>
 
-    <section class="section has-background-light">
+    <section id="statement" class="section has-background-light">
       <div class="container is-small has-text-centered">
         <div class="columns">
           <div class="column is-half is-offset-one-quarter">
@@ -29,7 +29,7 @@
       </div>
     </section>
 
-    <section class="section has-background-white is-medium">
+    <section id="support-sites" class="section has-background-white">
       <div class="container is-small has-text-centered">
         <div class="columns">
           <div class="column is-half is-offset-one-quarter">
@@ -89,23 +89,25 @@
             </a>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div id="crowdfunding">
-          <div class="columns">
-            <div class="column is-half is-offset-one-quarter">
-              <h4 class="title is-spaced body-title">
-                現在クラウドファンディング実施中の東京のライブハウス一覧
-              </h4>
-            </div>
+    <section id="crowdfunding" class="section has-background-white">
+      <div class="container is-small has-text-centered">
+        <div class="columns">
+          <div class="column is-half is-offset-one-quarter">
+            <h4 class="title is-spaced body-title">
+              現在クラウドファンディング実施中の東京のライブハウス一覧
+            </h4>
           </div>
-          <div class="columns is-multiline">
-            <ProjectCard
-              v-for="project in projects"
-              :title="project.title"
-              :caption="project.caption"
-              :project-id="project.id"
-            />
-          </div>
+        </div>
+        <div class="columns is-multiline">
+          <ProjectCard
+            v-for="project in projects"
+            :title="project.title"
+            :caption="project.caption"
+            :project-id="project.id"
+          />
         </div>
       </div>
     </section>
@@ -140,6 +142,10 @@ export default {
   color: #fff;
 }
 
+#support-sites {
+  padding-top: 9rem;
+}
+
 .body-title {
   margin-bottom: 5rem;
 }
@@ -153,17 +159,13 @@ export default {
   width: 256px;
 }
 
-#crowdfunding {
-  margin-top: 10rem;
-}
-
 @media screen and (max-width: 768px) {
-  .body-title {
-    margin-bottom: 2.5rem;
+  #support-sites {
+    padding-top: 6rem;
   }
 
-  #crowdfunding {
-    margin-top: 5rem;
+  .body-title {
+    margin-bottom: 2.5rem;
   }
 }
 </style>
