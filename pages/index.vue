@@ -52,11 +52,11 @@
               <br>
               （支払われた代金はすぐにライブハウスの元に届きます！）<br>
               <br>
-              <a href="https://savelivethehouse.com" target="_blank">https://savelivethehouse.com</a>
+              <a href="https://savethelivehouse.com" target="_blank">https://savethelivehouse.com</a>
             </p>
           </div>
           <div class="column is-6 centered">
-            <a href="https://savelivethehouse.com" target="_blank">
+            <a href="https://savethelivehouse.com" target="_blank">
               <figure class="image container">
                 <img src="https://savethelivehouse.com/img/logo/logo_2.png">
               </figure>
