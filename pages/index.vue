@@ -156,4 +156,14 @@ export default {
 #crowdfunding {
   margin-top: 10rem;
 }
+
+@media screen and (max-width: 768px) {
+  .body-title {
+    margin-bottom: 2.5rem;
+  }
+
+  #crowdfunding {
+    margin-top: 5rem;
+  }
+}
 </style>
