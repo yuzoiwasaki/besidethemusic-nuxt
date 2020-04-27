@@ -19,3 +19,8 @@ $ yarn generate
 # deploy to production
 $ ./deploy.sh
 ```
+
+## Contributors
+
+- [yuzoiwasaki](https://github.com/yuzoiwasaki)
+- [t-shimaoka](https://github.com/t-shimaoka)
