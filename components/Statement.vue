@@ -1,5 +1,5 @@
 <template>
-  <section id="statement" class="section has-background-light">
+  <section id="statement" class="section has-background-black has-text-white">
     <div class="container is-small has-text-centered">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">

@@ -1,5 +1,5 @@
 <template>
-  <footer id="footer "class="section is-primary">
+  <footer id="footer "class="section has-background-black">
     <div class="container is-small has-text-centered">
       <div class="columns">
         <div class="column">
@@ -13,11 +13,7 @@
 </template>
 
 <style>
-.is-primary {
-  background-color: #0a0a0a;
-}
-
-.is-primary a {
+.section a {
   color: #fff;
 }
 </style>
