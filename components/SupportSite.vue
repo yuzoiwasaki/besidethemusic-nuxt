@@ -9,14 +9,14 @@
         </div>
       </div>
       <div class="columns is-spaced sites">
-        <div class="column is-6 centered">
+        <div class="column is-6 centered savelivehouse-logo">
           <a href="https://savelivehouse.com" target="_blank">
             <figure class="image">
               <img src="https://savelivehouse.com/assets/img/ogp.png">
             </figure>
           </a>
         </div>
-        <div class="column is-6">
+        <div class="column is-6 savelivehouse-body">
           <p class="title is-5 is-spaced">
             MUSIC UNITES AGAINST COVID-19
           </p>
@@ -34,7 +34,14 @@
         </div>
       </div>
       <div class="columns is-spaced sites">
-        <div class="column is-6">
+        <div class="column is-6 centered savethelivehouse-logo">
+          <a href="https://savethelivehouse.com" target="_blank">
+            <figure class="image container">
+              <img src="https://savethelivehouse.com/img/logo/logo_2.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-6 savethelivehouse-body">
           <p class="title is-5 is-spaced">
             SAVE THE LIVEHOUSE
           </p>
@@ -51,13 +58,6 @@
             <a href="https://savethelivehouse.com" target="_blank">https://savethelivehouse.com</a>
           </p>
         </div>
-        <div class="column is-6 centered">
-          <a href="https://savethelivehouse.com" target="_blank">
-            <figure class="image container">
-              <img src="https://savethelivehouse.com/img/logo/logo_2.png">
-            </figure>
-          </a>
-        </div>
       </div>
     </div>
   </section>
@@ -72,6 +72,14 @@
   margin-bottom: 5rem !important;
 }
 
+.savethelivehouse-logo {
+  order: 2;
+}
+
+.savethelivehouse-body {
+  order: 1;
+}
+
 .image.container {
   height: 256px;
   width: 256px;
@@ -80,6 +88,15 @@
 @media screen and (max-width: 768px) {
   #support-site {
     padding-top: 6rem;
+  }
+
+  .savethelivehouse-logo {
+    margin-bottom: 30px;
+  }
+
+  .image.container {
+    height: 128px;
+    width: 128px;
   }
 }
 </style>
