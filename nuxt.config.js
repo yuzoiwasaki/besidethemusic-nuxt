@@ -21,7 +21,7 @@ export default {
       { hid: 'og:description', name: 'og:description', content: description },
       { hid: 'og:url', name: 'og:url', content: url },
       { hid: 'og:image', name: 'og:image', content: image },
-      { hid: 'fb:app_id', property: 'fb:app_id', content: '667885473990531' }.
+      { hid: 'fb:app_id', property: 'fb:app_id', content: '667885473990531' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
