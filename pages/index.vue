@@ -2,8 +2,11 @@
   <div id="main">
     <Hero />
     <Statement />
+
     <SupportSite />
     <Crowdfunding />
+
+    <Footer />
   </div>
 </template>
 
@@ -12,13 +15,15 @@ import Hero from '@/components/Hero.vue'
 import Statement from '@/components/Statement.vue'
 import SupportSite from '@/components/SupportSite.vue'
 import Crowdfunding from '@/components/Crowdfunding.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   components: {
     Hero,
     Statement,
     SupportSite,
-    Crowdfunding
+    Crowdfunding,
+    Footer
   }
 }
 </script>
