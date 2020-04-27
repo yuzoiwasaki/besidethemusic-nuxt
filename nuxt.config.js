@@ -1,15 +1,26 @@
+const title = 'Beside the Music'
+const description = 'コロナウイルスで苦しんでいるライブハウスを支援するためのまとめサイトです。みんなで音楽を支援しよう！いつも音楽のそばに'
+const type = 'website'
+const url = 'https://besidethemusic.tokyo'
+const image = '/assets/images/ogp.png'
 
 export default {
   mode: 'spa',
+
   /*
   ** Headers of the page
   */
   head: {
-    title: 'Beside the Music',
+    title: title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'コロナウイルスで苦しんでいるライブハウスを支援するためのまとめサイト。みんなで音楽を支援しよう！いつも音楽のそばに' }
+      { hid: 'description', name: 'description', content: description },
+      { hid: 'og:type', name: 'og:type', content: type },
+      { hid: 'og:title', name: 'og:title', content: title },
+      { hid: 'og:description', name: 'og:description', content: description },
+      { hid: 'og:url', name: 'og:url', content: url },
+      { hid: 'og:image', name: 'og:image', content: image },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
