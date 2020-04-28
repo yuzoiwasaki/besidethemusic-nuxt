@@ -9,12 +9,17 @@
         </div>
       </div>
       <div class="columns is-multiline">
-        <ProjectCard
-          v-for="project in projects"
+        <ProjectCardCampfire
+          v-for="project in campfire_projects"
           :title="project.title"
           :caption="project.caption"
           :project-id="project.id"
-          :site="project.site"
+        />
+        <ProjectCardMotiongallery
+          v-for="project in motiongallery_projects"
+          :title="project.title"
+          :caption="project.caption"
+          :project-id="project.id"
         />
       </div>
     </div>
@@ -22,16 +27,20 @@
 </template>
 
 <script>
-import ProjectCard from '@/components/ProjectCard.vue'
-import projects from '@/assets/data/project.json'
+import ProjectCardCampfire from '@/components/ProjectCardCampfire.vue'
+import ProjectCardMotiongallery from '@/components/ProjectCardMotiongallery.vue'
+import campfire_projects from '@/assets/data/projects/campfire.json'
+import motiongallery_projects from '@/assets/data/projects/motiongallery.json'
 
 export default {
   components: {
-    ProjectCard
+    ProjectCardCampfire,
+    ProjectCardMotiongallery
   },
   data () {
     return {
-      projects: projects
+      campfire_projects: campfire_projects,
+      motiongallery_projects: motiongallery_projects
     }
   }
 }
