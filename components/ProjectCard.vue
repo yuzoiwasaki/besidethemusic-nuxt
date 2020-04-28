@@ -6,11 +6,14 @@
     <p class="subtitle is-6">
       {{ caption }}
     </p>
-    <iframe frameborder="0" height="365" scrolling="no" :src="projectUrl" width="245"></iframe>
+    <iframe frameborder="0" :height="projectHeight" scrolling="no" :src="projectUrl" width="245"></iframe>
   </div>
 </template>
 
 <script>
+const projectHeightCampfire = 365;
+const projectHeightMotionGallery = 452;
+
 export default {
   props: {
     title: {
@@ -32,6 +35,13 @@ export default {
     }
   },
   computed: {
+    projectHeight: function() {
+      if (this.site === 'campfire') {
+        return projectHeightCampfire;
+      } else if (this.site === 'motiongallery') {
+        return projectHeightMotionGallery;
+      }
+    },
     projectUrl: function() {
       if (this.site === 'campfire') {
         return 'https://camp-fire.jp/projects/' + this.projectId + '/widget';
