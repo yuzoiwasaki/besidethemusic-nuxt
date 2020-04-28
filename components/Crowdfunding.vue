@@ -15,6 +15,17 @@
           :caption="project.caption"
           :project-id="project.id"
         />
+
+        <!-- MOTION GALLERY -->
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            新型コロナウイルスに負けない。ライブハウスＣＲＡＺＹＪＡＭから音楽で笑顔をつなぐプロジェクト。
+          </p>
+          <p class="subtitle is-6">
+            17年目を迎える東京立川の小さなライブハウスＣＲＡＺＹＪＡＭは、新型コロナウイルスの影響で閉店の危機。次世代の為にも、スタッフの為にも、音楽で笑顔をつなぎたいのです。ご支援を何卒よろしくお願いします
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/crazyjam/widget" width="245"></iframe>
+        </div>
       </div>
     </div>
   </section>
