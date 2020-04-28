@@ -22,13 +22,22 @@ export default {
       required: true
     },
     projectId: {
-      type: Number,
+      type: String,
+      requred: true
+    },
+    site: {
+      type: String,
+      default: 'campfire',
       requred: true
     }
   },
   computed: {
     projectUrl: function() {
-      return 'https://camp-fire.jp/projects/' + this.projectId + '/widget';
+      if (this.site === 'campfire') {
+        return 'https://camp-fire.jp/projects/' + this.projectId + '/widget';
+      } else if (this.site === 'motiongallery') {
+        return 'https://motion-gallery.net/projects/' + this.projectId + '/widget';
+      }
     }
   }
 }
