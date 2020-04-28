@@ -54,6 +54,26 @@
           </p>
           <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/rescue_crescendo/widget" width="245"></iframe>
         </div>
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            伝説的ライブ・スペース原宿クロコダイル ＜絶滅危惧種を救え！＞SAVE CROCODILE PROJECT
+          </p>
+          <p class="subtitle is-6">
+            今回の異常事態になすすべなくほとんど閉店状態になってしまいました。
+            幾多のロッカーたちと共に遊んできた大切なこの場を絶対なくすわけにはいきません。
+            この鰐に力を貸してください！　原宿クロコダイル　西 哲也　
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/Crocodile/widget" width="245"></iframe>
+        </div>
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            【SAVE THE SHINJUKU FATE】新宿FATE存続の為の支援プロジェクト
+          </p>
+          <p class="subtitle is-6">
+            新型コロナウイルスの影響によるイベントキャンセルでの売上減少、非常事態宣言を受けての4月からの営業自粛。今、新宿FATEは最大の危機を迎えています。また皆様と笑顔で会う為、FATEを守る為に、ご支援お願い致します。
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/shinjukufate/widget" width="245"></iframe>
+        </div>
       </div>
     </div>
   </section>
