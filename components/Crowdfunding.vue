@@ -49,8 +49,8 @@ export default {
 
 <style>
 @media screen and (max-width: 768px) {
- #crowdfunding {
-   padding-top: 0;
- }
+  #crowdfunding {
+    padding-top: 0;
+  }
 }
 </style>
