@@ -26,6 +26,34 @@
           </p>
           <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/crazyjam/widget" width="245"></iframe>
         </div>
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            最高の遊び場(ライブハウス)を守りたい。命懸けで作り上げた自分達の居場所【club SCIENCE】を終わらせたくない！
+          </p>
+          <p class="subtitle is-6">
+            新型コロナウィルスの影響により3月上旬からの相次ぐイベントキャンセルに続き、政府からの自粛要請を受け、新宿club SCIENCEは今、最大の危機に直面しています。皆様と遊べるこの場所を守る為にお力を貸して頂きたいです。
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/club_science/widget" width="245"></iframe>
+        </div>
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            SAVE THE 下北沢ガレージ
+          </p>
+          <p class="subtitle is-6">
+            日本のバンドシーンを支えて26年、下北沢GARAGEが限界です。来たる未来を見据えた、ライブハウスでの感動体験との再会と、Webを活かした新しくたのしい音楽の発信基地にする為に、どうかみなさまの力を貸してください
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/garage/widget" width="245"></iframe>
+        </div>
+        <div class="column is-3 has-padding-30">
+          <p class="title is-5 is-spaced">
+            吉祥寺クレッシェンド救済コンピレーションアルバム製作プロジェクト〜Uniting Everyone's Hearts〜
+          </p>
+          <p class="subtitle is-6">
+            新型コロナウィルスの影響により危機に瀕している老舗ライヴハウス「吉祥寺クレッシェンド」。
+            終息時の自分たちの帰る場所を守るべく出演アーティストたちがクレッシェンド救済コンピレーションアルバム作成・利益を寄付します。
+          </p>
+          <iframe frameborder="0" height="365" scrolling="no" src="https://motion-gallery.net/projects/rescue_crescendo/widget" width="245"></iframe>
+        </div>
       </div>
     </div>
   </section>
