@@ -17,6 +17,6 @@
 
 <style>
 .hero.is-primary {
-  background: url('/main.jpg');
+  background: url('/images/main.jpg');
 }
 </style>

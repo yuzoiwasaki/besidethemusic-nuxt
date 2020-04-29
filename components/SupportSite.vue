@@ -63,7 +63,7 @@
         <div class="column is-6 centered saveourspace-logo">
           <a href="http://save-our-space.org" target="_blank">
             <figure class="image">
-              <img src="/saveourspace.jpeg">
+              <img src="/images/saveourspace.jpeg">
             </figure>
           </a>
         </div>
