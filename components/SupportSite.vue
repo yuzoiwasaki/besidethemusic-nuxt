@@ -12,7 +12,7 @@
         <div class="column is-6 centered savelivehouse-logo">
           <a href="https://savelivehouse.com" target="_blank">
             <figure class="image">
-              <img src="https://savelivehouse.com/assets/img/ogp.png">
+              <img src="/images/savelivehouse.png">
             </figure>
           </a>
         </div>
@@ -37,7 +37,7 @@
         <div class="column is-6 centered savethelivehouse-logo">
           <a href="https://savethelivehouse.com" target="_blank">
             <figure class="image container">
-              <img src="https://savethelivehouse.com/img/logo/logo_2.png">
+              <img src="/images/savethelivehouse.png">
             </figure>
           </a>
         </div>
