@@ -59,6 +59,31 @@
           </p>
         </div>
       </div>
+      <div class="columns is-spaced sites">
+        <div class="column is-6 centered saveourspace-logo">
+          <a href="http://save-our-space.org" target="_blank">
+            <figure class="image">
+              <img src="/saveourspace.jpeg">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-6 saveourspace-body">
+          <p class="title is-5 is-spaced">
+            SaveOurSpace
+          </p>
+          <p class="subtitle is-6">
+            新型コロナウイルス感染拡大防止に努めるあらゆる人の仕事と生活を守る継続的な支援を求める署名【受付中！】<br>
+            <br>
+            #SaveOurLife<br>
+            <br>
+            私たちの命と仕事を守ろう<br>
+            <br>
+            感染症拡大防止のなかで職を守り、継続的な助成を国に求める署名活動
+            <br>
+            <a href="http://save-our-space.org" target="_blank">http://save-our-space.org</a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
