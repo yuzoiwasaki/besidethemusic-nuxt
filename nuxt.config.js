@@ -24,6 +24,9 @@ export default {
       { hid: 'fb:app_id', property: 'fb:app_id', content: '667885473990531' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
     ],
+    script: [
+      { src: 'lazysizes.min.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
