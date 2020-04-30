@@ -78,7 +78,7 @@
             <br>
             私たちの命と仕事を守ろう<br>
             <br>
-            感染症拡大防止のなかで職を守り、継続的な助成を国に求める署名活動
+            感染症拡大防止のなかで職を守り、継続的な助成を国に求める署名活動<br>
             <br>
             <a href="http://save-our-space.org" target="_blank">http://save-our-space.org</a>
           </p>
@@ -111,7 +111,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 #support-site {
   padding-top: 9rem;
 }

@@ -15,7 +15,7 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 .hero.is-primary {
   background: url('/images/main.jpg');
 }
