@@ -84,6 +84,29 @@
           </p>
         </div>
       </div>
+      <div class="columns is-spaced sites">
+        <div class="column is-6 centered liveforcelivehouse-logo">
+          <a href="http://liveforcelivehouse.com" target="_blank">
+            <figure class="image">
+              <img src="/images/liveforcelivehouse.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-6 liveforcelivehouse-body">
+          <p class="title is-5 is-spaced">
+            LIVE FORCE, LIFE HOUSE.
+          </p>
+          <p class="subtitle is-6">
+            全国でのイベントの自粛や中止をうけ、それぞれのローカルのシーンと結びついて最も身近に音楽を楽しむ場所であり、音楽が生まれる場所でもあるライブハウスが経済的なダメージを受け続けており、しかも長期化の様相を呈しています。<br>
+            <br>
+            このプラットフォームでは、ROCK/POP系のBANDが主に出演している、全国の独立系のライブハウスを対象に、まずは緊急支援、そして今後を見据えた継続的な支援を目的としています。<br>
+            <br>
+            是非、みなさんのプロジェクトへの賛同とご協力をよろしくお願いいたします。<br>
+            <br>
+            <a href="http://liveforcelivehouse.com" target="_blank">http://liveforcelivehouse.com</a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -102,6 +125,14 @@
 }
 
 .savethelivehouse-body {
+  order: 1;
+}
+
+.liveforcelivehouse-logo {
+  order: 2;
+}
+
+.liveforcelivehouse-body {
   order: 1;
 }
 
