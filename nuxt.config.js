@@ -23,6 +23,7 @@ export default {
       { hid: 'og:image', property: 'og:image', content: image },
       { hid: 'fb:app_id', property: 'fb:app_id', content: '667885473990531' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@besidethemusic' },
     ],
     script: [
       { src: 'javascripts/lazysizes.min.js' }
