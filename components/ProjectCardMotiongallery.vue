@@ -6,7 +6,7 @@
     <p class="subtitle is-6">
       {{ caption }}
     </p>
-    <iframe frameborder="0" :height="452" scrolling="no" :src="projectUrl" width="245" class="lazyload"></iframe>
+    <iframe frameborder="0" height="452" scrolling="no" :src="projectUrl" width="245" class="lazyload"></iframe>
   </div>
 </template>
 
