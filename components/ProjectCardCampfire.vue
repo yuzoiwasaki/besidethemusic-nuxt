@@ -1,12 +1,12 @@
 <template>
-  <div class="column is-3 has-padding-30">
+  <div class="column is-3 has-padding-30 is-aligned">
     <p class="title is-5 is-spaced">
       {{ title }}
     </p>
     <p class="subtitle is-6">
       {{ caption }}
     </p>
-    <iframe frameborder="0" height="365" scrolling="no" :src="projectUrl" width="245" class="lazyload"></iframe>
+    <iframe frameborder="0" height="365" scrolling="no" :src="projectUrl" width="245" class="card-content lazyload"></iframe>
   </div>
 </template>
 
@@ -37,5 +37,15 @@ export default {
 <style>
 .has-padding-30 {
   padding: 30px !important;
+}
+
+.is-aligned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-content {
+  margin-top: auto;
 }
 </style>
