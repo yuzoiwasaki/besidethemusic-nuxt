@@ -24,3 +24,4 @@ $ ./deploy.sh
 
 - [yuzoiwasaki](https://github.com/yuzoiwasaki)
 - [t-shimaoka](https://github.com/t-shimaoka)
+- [ken3ypa](https://github.com/ken3ypa)
