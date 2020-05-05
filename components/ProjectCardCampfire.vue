@@ -6,7 +6,7 @@
     <p class="subtitle is-6">
       {{ caption }}
     </p>
-    <iframe frameborder="0" height="365" scrolling="no" :src="projectUrl" width="245" class="card-content lazyload"></iframe>
+    <iframe frameborder="0" height="365" scrolling="no" :src="projectUrl" width="245" class="iframe-card-content lazyload"></iframe>
   </div>
 </template>
 
@@ -45,7 +45,7 @@ export default {
   align-items: center;
 }
 
-.card-content {
+.iframe-card-content {
   margin-top: auto;
 }
 </style>
