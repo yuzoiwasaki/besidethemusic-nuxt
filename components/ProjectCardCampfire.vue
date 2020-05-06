@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .has-padding-30 {
   padding: 30px !important;
 }
