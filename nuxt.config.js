@@ -1,5 +1,5 @@
 const title = 'Beside the Music'
-const description = 'コロナウィルスで苦しんでいるライブハウスを支援するためのまとめサイトです。みんなで音楽を支援しよう！いつも音楽のそばに'
+const description = 'コロナウィルスで苦しんでいるライブハウスを支援するまとめサイトです。みんなで音楽を支援しよう！いつも音楽のそばに'
 const type = 'website'
 const url = 'https://besidethemusic.tokyo'
 const image = 'https://besidethemusic.tokyo/images/ogp.jpg'
