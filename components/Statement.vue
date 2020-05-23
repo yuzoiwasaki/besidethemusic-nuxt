@@ -3,6 +3,12 @@
     <div class="container is-small has-text-centered">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
+          <h1 class="title is-1 is-spaced has-text-white">
+            Beside the Music
+          </h1>
+          <h2 class="subtitle has-text-white">
+            みんなで音楽を支援しよう！いつも音楽のそばに
+          </h2>
           <p>
             現在コロナウィルスの影響で営業することができず、苦しんでいるライブハウスがたくさんあります。中にはすでに店を閉めざるを得ない選択をしたところもあります。<br>
             <br>
@@ -13,7 +19,7 @@
             誰かにとっての大切な場所がこれからもずっと存続できますように。
           </p>
         </div>
-      </div>
+      </div>      
     </div>
   </section>
 </template>
