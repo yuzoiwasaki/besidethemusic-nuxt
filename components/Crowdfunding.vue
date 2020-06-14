@@ -3,9 +3,9 @@
     <div class="container is-small has-text-centered">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
-          <h4 class="title is-spaced body-title">
+          <h3 class="title is-spaced body-title">
             現在クラウドファンディング実施中の東京近郊のライブハウス一覧
-          </h4>
+          </h3>
         </div>
       </div>
       <div class="columns is-multiline">

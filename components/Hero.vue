@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            Beside the Music
+            <h1>Beside the Music</h1>
           </a>
         </div>
         <div class="navbar-menu">

@@ -3,9 +3,9 @@
     <div class="container is-small has-text-centered">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
-          <h3 class="title is-spaced body-title">
+          <h2 class="title is-spaced body-title">
             ライブハウス支援サイト一覧
-          </h3>
+          </h2>
         </div>
       </div>
       <div class="columns is-spaced sites">
