@@ -3,7 +3,10 @@
     <div id="mainVisual-pc" class="is-hidden-mobile">
       <Header />
     </div>
-    <div id="mainVisual-sp" class="is-hidden-tablet"><img src="/images/main2_sp.jpg" width="100%"></div>
+    <div id="mainVisual-sp" class="is-hidden-tablet">
+      <Header />
+      <img src="/images/main2_sp.jpg" width="100%">
+    </div>
   </section>
 </template>
 
