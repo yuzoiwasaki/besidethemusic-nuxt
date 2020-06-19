@@ -1,29 +1,21 @@
 <template>
   <section id="hero" class="hero-container">
     <div id="mainVisual-pc" class="is-hidden-mobile">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              <h1>Beside the Music</h1>
-            </a>
-          </div>
-          <div class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item" href="https://news.livedoor.com/article/detail/18402362" target="_blank">
-                お知らせ
-              </a>
-              <a class="navbar-item" href="https://twitter.com/besidethemusic" target="_blank">
-                Twitter
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header />
     </div>
     <div id="mainVisual-sp" class="is-hidden-tablet"><img src="/images/main2_sp.jpg" width="100%"></div>
   </section>
 </template>
+
+<script>
+import Header from '@/components/Header.vue'
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
 
 <style scoped>
 #mainVisual-pc{
@@ -36,17 +28,5 @@
 }
 #mainVisual-sp{
   background-color:#000000;
-}
-
-.navbar {
-  background-color: transparent;
-}
-
-.navbar a {
-  color: #fff;
-}
-
-.navbar a:hover, a:visited {
-  background-color: #000;
 }
 </style>
