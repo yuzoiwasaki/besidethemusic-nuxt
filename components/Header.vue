@@ -8,8 +8,8 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item" href="https://news.livedoor.com/article/detail/18402362" target="_blank">
-            お知らせ
+          <a class="navbar-item" href="/notifications">
+            News
           </a>
           <a class="navbar-item" href="https://twitter.com/besidethemusic" target="_blank">
             Twitter
