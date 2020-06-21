@@ -8,7 +8,7 @@
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item" href="/notifications">
+          <a class="navbar-item" href="/news">
             News
           </a>
           <a class="navbar-item" href="https://twitter.com/besidethemusic" target="_blank">
