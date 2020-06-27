@@ -120,18 +120,12 @@
   margin-bottom: 5rem !important;
 }
 
-.savethelivehouse-logo {
-  order: 2;
-}
-
-.savethelivehouse-body {
-  order: 1;
-}
-
+.savethelivehouse-logo,
 .liveforcelivehouse-logo {
   order: 2;
 }
 
+.savethelivehouse-body,
 .liveforcelivehouse-body {
   order: 1;
 }
