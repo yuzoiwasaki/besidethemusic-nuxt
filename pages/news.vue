@@ -59,12 +59,6 @@ export default {
 </script>
 
 <style>
-@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
-
-#main {
-  font-family: "Noto Sans JP", "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-
 .entry {
   margin: 30px 0;
 }
