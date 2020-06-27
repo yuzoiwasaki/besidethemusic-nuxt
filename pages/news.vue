@@ -15,6 +15,9 @@
           <div class="column is-half is-offset-one-quarter">
             <ul>
               <li class="entry">
+                <a href="http://save-our-space.org/tokyogovernorelection2020/" target="_blank">2020/06/24：【東京都知事選候補者へ聞きたいこと】縮小営業を余儀なくされているライブハウス/クラブに関しての対応を聞きました。</a>
+              </li>
+              <li class="entry">
                 <a href="https://mainichi.jp/articles/20200619/k00/00m/040/336000c" target="_blank">2020/06/19：「とにかく長かった」　都内のライブハウス、休業要請全面解除で3カ月ぶり再開</a>
               </li>
               <li class="entry">
