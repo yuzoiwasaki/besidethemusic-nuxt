@@ -15,9 +15,6 @@ $ yarn dev
 
 # generate static project
 $ yarn generate
-
-# deploy to production
-$ ./deploy.sh
 ```
 
 ## Contributors
