@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/yuzoiwasaki/besidethemusic-nuxt/tree/master.svg?style=svg)](https://circleci.com/gh/yuzoiwasaki/besidethemusic-nuxt/tree/master)
+
 # besidethemusic-nuxt
 
 Summary site that supports live houses from COVID-19
