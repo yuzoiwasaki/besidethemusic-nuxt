@@ -1,5 +1,15 @@
 version: 2.1
 
+commands:
+  yarn_install:
+    steps:
+      - run:
+          command: |
+            yum -y install wget
+            wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
+            curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
+            yum -y install yarn
+
 executors:
   aws-cli:
     docker:
@@ -15,6 +25,7 @@ jobs:
         type: string
     steps:
       - checkout
+      - yarn_install
       - run:
           command: |
             yarn generate
