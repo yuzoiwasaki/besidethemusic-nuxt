@@ -1,0 +1,52 @@
+version: 2.1
+
+executors:
+  aws-cli:
+    docker:
+      - image: amazon/aws-cli
+    working_directory: ~/besidethemusic
+
+jobs:
+  upload:
+    executor:
+      name: aws-cli
+    parameters:
+      s3_bucket_name:
+        type: string
+    steps:
+      - checkout
+      - run:
+          command: |
+            aws s3 sync --acl public-read ./dist/ s3://$S3_BUCKET_NAME
+          environment:
+            S3_BUCKET_NAME: << parameters.s3_bucket_name >>
+  invalidate:
+    executor:
+      name: aws-cli
+    parameters:
+      cloudfront_distribution_id:
+        type: string
+    steps:
+      - checkout
+      - run:
+          command: |
+            aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*'
+          environment:
+            CLOUDFRONT_DISTRIBUTION_ID: << parameters.cloudfront_distribution_id >>
+
+workflows:
+  deploy:
+    jobs:
+      - upload:
+        name: upload
+        s3_bucket_name: besidethemusic-production
+        filters:
+          branches:
+            only: [master]
+      - invalidate:
+        name: invalidate
+        cloudfront_distribution_id: E2GLAMASJDSYOI
+        requires: [upload]
+        filters:
+          branches:
+            only: [master]
