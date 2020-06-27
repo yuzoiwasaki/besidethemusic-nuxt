@@ -41,6 +41,16 @@ export default {
   components: {
     Hero,
     Footer
+  },
+  data () {
+    return {
+      title: 'News | Beside the Music'
+    }
+  },
+  head () {
+    return {
+      title: this.title
+    }
   }
 }
 </script>
