@@ -17,6 +17,7 @@ jobs:
       - checkout
       - run:
           command: |
+            yarn generate
             aws s3 sync --acl public-read ./dist/ s3://$S3_BUCKET_NAME
           environment:
             S3_BUCKET_NAME: << parameters.s3_bucket_name >>
