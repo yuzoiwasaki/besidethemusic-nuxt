@@ -38,15 +38,15 @@ workflows:
   deploy:
     jobs:
       - upload:
-        name: upload
-        s3_bucket_name: besidethemusic-production
-        filters:
-          branches:
-            only: [master]
+          name: upload
+          s3_bucket_name: besidethemusic-production
+          filters:
+            branches:
+              only: [master]
       - invalidate:
-        name: invalidate
-        cloudfront_distribution_id: E2GLAMASJDSYOI
-        requires: [upload]
-        filters:
-          branches:
-            only: [master]
+          name: invalidate
+          cloudfront_distribution_id: E2GLAMASJDSYOI
+          requires: [upload]
+          filters:
+            branches:
+              only: [master]
