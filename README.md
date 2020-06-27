@@ -4,7 +4,7 @@
 
 Summary site that supports live houses from COVID-19
 
-[besidethemusic.tokyo](https://besidethemusic.tokyo)
+[https://besidethemusic.tokyo](https://besidethemusic.tokyo)
 
 ## Build Setup
 
