@@ -3,6 +3,8 @@ version: 2.1
 commands:
   yarn_install:
     steps:
+      - restore_cache:
+          key: besidethemusic-modules-{{ checksum "yarn.lock" }}
       - run:
           command: |
             yum -y install wget
@@ -10,6 +12,11 @@ commands:
             curl --silent --location https://rpm.nodesource.com/setup_10.x | bash -
             yum -y install yarn
             yarn install
+      - save_cache:
+          key: besidethemusic-modules-{{ checksum "yarn.lock" }}
+          paths:
+            - node_modules
+            - ~/.cache/yarn
 
 executors:
   aws-cli:
