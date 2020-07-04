@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
           <h3 class="title is-spaced body-title">
-            現在クラウドファンディング実施中の東京近郊のライブハウス一覧
+            現在クラウドファンディング実施中のライブハウス一覧
           </h3>
         </div>
       </div>
