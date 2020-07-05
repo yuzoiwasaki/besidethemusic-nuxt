@@ -9,31 +9,6 @@
         </div>
       </div>
       <div class="columns is-spaced sites">
-        <div class="column is-6 centered savelivehouse-logo">
-          <a href="https://savelivehouse.com" target="_blank">
-            <figure class="image">
-              <img src="/images/savelivehouse.png">
-            </figure>
-          </a>
-        </div>
-        <div class="column is-6 savelivehouse-body">
-          <p class="title is-5 is-spaced">
-            MUSIC UNITES AGAINST COVID-19
-          </p>
-          <p class="subtitle is-6">
-            MUSIC UNITES AGAINST COVID-19 フォルダのアクセス権をダウンロード購入することで、自分が応援したいライブハウスを支援することができます<br>
-            5種類の価格の中から自分が支援したい金額を選んで購入できます<br>
-            どこのストアでどの金額で購入しても商品内容は同じです<br>
-            <br>
-            フォルダの中には「プロジェクトに賛同した約70組のミュージシャンが提供する楽曲データ」が置いてあります<br>
-            これらは皆さまの支援へのお礼です<br>
-            期間内(2020年6月末日まで)であれば好きな時に聴いて楽しむことができます<br>
-            <br>
-            <a href="https://savelivehouse.com" target="_blank">https://savelivehouse.com</a>
-          </p>
-        </div>
-      </div>
-      <div class="columns is-spaced sites">
         <div class="column is-6 centered savethelivehouse-logo">
           <a href="https://savethelivehouse.com" target="_blank">
             <figure class="image container">
@@ -120,13 +95,11 @@
   margin-bottom: 5rem !important;
 }
 
-.savethelivehouse-logo,
-.liveforcelivehouse-logo {
+.saveourspace-logo {
   order: 2;
 }
 
-.savethelivehouse-body,
-.liveforcelivehouse-body {
+.saveourspace-body {
   order: 1;
 }
 
