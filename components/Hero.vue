@@ -1,11 +1,7 @@
 <template>
   <section id="hero" class="hero-container">
-    <div id="mainVisual-pc" class="is-hidden-mobile">
+    <div id="main-visual">
       <Header />
-    </div>
-    <div id="mainVisual-sp" class="is-hidden-tablet">
-      <Header />
-      <img src="/images/main2_sp.jpg" width="100%">
     </div>
   </section>
 </template>
@@ -21,15 +17,19 @@ export default {
 </script>
 
 <style scoped>
-#mainVisual-pc{
+#main-visual {
   background: url("/images/main2_pc.jpg") center 0 no-repeat;
   background-size: cover;
-  background-color:#000000;
-  color:#FFFFFF;
   min-height: 700px;
   background-position: bottom;
 }
-#mainVisual-sp{
-  background-color:#000000;
+
+@media screen and (max-width: 768px) {
+  #main-visual {
+    background: url("/images/main2_sp.jpg") center 0 no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-position: bottom;
+  }
 }
 </style>
