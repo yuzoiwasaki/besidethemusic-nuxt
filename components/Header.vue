@@ -5,6 +5,9 @@
         <a class="navbar-item" href="/">
           <h1>Beside the Music</h1>
         </a>
+        <a class="navbar-item is-hidden-tablet" href="/news">
+          News
+        </a>
       </div>
       <div class="navbar-menu">
         <div class="navbar-end">
