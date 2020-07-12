@@ -12,6 +12,10 @@
         <div class="column is-half is-offset-one-quarter">
           <ul>
             <NewsList
+              title="2020/07/07：文化庁による新たな芸術支援、7月10日に受付開始。最高で150万円"
+              url="https://bijutsutecho.com/magazine/news/headline/22294"
+            />
+            <NewsList
               title="2020/06/24：【東京都知事選候補者へ聞きたいこと】縮小営業を余儀なくされているライブハウス/クラブに関しての対応を聞きました。"
               url="http://save-our-space.org/tokyogovernorelection2020"
             />
