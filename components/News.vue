@@ -20,6 +20,10 @@
               url="http://save-our-space.org/tokyogovernorelection2020"
             />
             <NewsList
+              title="2020/06/23：ライブハウスを救え！！東京クリーン消毒株式会社が、コロナ危機のライブハウスに向けて、無料除菌サービスを開始！！！"
+              url="https://www.asahi.com/and_M/pressrelease/pre_13376604"
+            />
+            <NewsList
               title="2020/06/19：「とにかく長かった」　都内のライブハウス、休業要請全面解除で3カ月ぶり再開"
               url="https://mainichi.jp/articles/20200619/k00/00m/040/336000c"
             />
