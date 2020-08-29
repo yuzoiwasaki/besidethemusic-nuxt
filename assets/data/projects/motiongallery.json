@@ -1,28 +1,8 @@
 [
   {
-    "id": "kennedyhouse",
-    "title": "【SAVE KENNEDY HOUSE】ケネディハウス銀座緊急支援プロジェクト〜存続と継続へ〜",
-    "caption": "今回のコロナウイルスの影響により３月〜５月末までの３ヶ月間の休業を余儀なくされました。ケネディハウス銀座を音楽を届ける貴重な場所として継続させるために、是非ご支援の程よろしくお願い致します。加瀬友貴"
-  },
-  {
-    "id": "garage",
-    "title": "SAVE THE 下北沢ガレージ",
-    "caption": "日本のバンドシーンを支えて26年、下北沢GARAGEが限界です。来たる未来を見据えた、ライブハウスでの感動体験との再会と、Webを活かした新しくたのしい音楽の発信基地にする為に、どうかみなさまの力を貸してください"
-  },
-  {
-    "id": "savethesensation",
-    "title": "『SAVE THE SENSATION』横浜クラブセンセーション支援プロジェクト！",
-    "caption": "1971年から続いた横浜の老舗ライヴハウスGUPPYを受継ぎ、全国ライヴハウス・グランプリにて3年連続日本一に輝いたTHE CLUB SENSATIONが存続の危機に瀕しています。皆様、ご支援！是非お願いします。"
-  },
-  {
     "id": "mikunigaoka_fuzz1999",
     "title": "大阪・堺の老舗ライブハウス「三国ヶ丘FUZZ」を存続させたい！",
     "caption": "新型コロナウイルスの影響により窮地にある大阪・堺の老舗ライブハウス三国ヶ丘FUZZを存続させるためにみなさまの力をください！ドネーショングッズ、格安レンタル等のリターンを用意しています。"
-  },
-  {
-    "id": "Sibuyamilkyway_10thanniversary",
-    "title": "SAVE OUR MUSIC at Shibuya Milkyway",
-    "caption": "渋谷からミュージックカルチャーを発信して今年で10年、Shibuya Milkywayはいまコロナ禍の影響により運営が困難な状況に立たされております。何卒お力添えいただきたくこのプロジェクトを発足いたしました。"
   },
   {
     "id": "artcafeFriends",
@@ -30,13 +10,13 @@
     "caption": "多くのアーティストの活動の場として文化の灯をともしてきましたが、コロナウイルスによる影響で、最大の危機に直面しております。今後も、アーティストの皆さんに活動の場が提供出来るよう、ご助力お願いします。"
   },
   {
-    "id": "Savetheunderground",
-    "title": "ライブハウス支援プロジェクト【SAVE THE UNDERGROUND】",
-    "caption": "Underground is no dead !!!【PUNiK×GASOLINE YUNBOによる都内７ヶ所のライブハウス支援プロジェクト】新型コロナウイルスと共存する日が来るまで。。。"
-  },
-  {
     "id": "musicboxim_ginza",
     "title": "銀座6丁目、生演奏バー&ライブハウスMusic Box I'm支援プロジェクト",
     "caption": "Music Box I'mの存続の為、ご支援お願いしますっ！"
+  },
+  {
+    "id": "Savetheunderground",
+    "title": "ライブハウス支援プロジェクト【SAVE THE UNDERGROUND】",
+    "caption": "Underground is no dead !!!【PUNiK×GASOLINE YUNBOによる都内７ヶ所のライブハウス支援プロジェクト】新型コロナウイルスと共存する日が来るまで。。。"
   }
 ]
