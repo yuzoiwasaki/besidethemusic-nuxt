@@ -12,6 +12,10 @@
         <div class="column is-half is-offset-one-quarter">
           <ul>
             <NewsList
+              title="2020/10/09：音楽ライブ配信手数料、ずっと無料。音楽業界を支える配信プラットフォームを開発。渋谷や下北沢で複数ライブハウスを展開するTOOS CORP. −チケット販売・動画視聴ほか機能充実の「Qumomee」 −"
+              url="https://prtimes.jp/main/html/rd/p/000000001.000067245.html"
+            />
+            <NewsList
               title="2020/07/07：文化庁による新たな芸術支援、7月10日に受付開始。最高で150万円"
               url="https://bijutsutecho.com/magazine/news/headline/22294"
             />
