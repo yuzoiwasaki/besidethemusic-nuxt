@@ -12,6 +12,10 @@
         <div class="column is-half is-offset-one-quarter">
           <ul>
             <NewsList
+              title="2020/10/09：CAMPFIRE「新型コロナウイルスサポートプログラム」、KDDIと連携し、本日よりクラウドファンディング手数料 完全無償化を再開"
+              url="https://prtimes.jp/main/html/rd/p/000000304.000019299.html"
+            />
+            <NewsList
               title="2020/10/09：音楽ライブ配信手数料、ずっと無料。音楽業界を支える配信プラットフォームを開発。渋谷や下北沢で複数ライブハウスを展開するTOOS CORP. −チケット販売・動画視聴ほか機能充実の「Qumomee」 −"
               url="https://prtimes.jp/main/html/rd/p/000000001.000067245.html"
             />
