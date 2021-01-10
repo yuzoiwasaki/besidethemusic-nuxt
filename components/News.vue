@@ -10,36 +10,45 @@
       </div>
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
-          <ul>
-            <NewsList
-              title="2020/10/09：CAMPFIRE「新型コロナウイルスサポートプログラム」、KDDIと連携し、本日よりクラウドファンディング手数料 完全無償化を再開"
-              url="https://prtimes.jp/main/html/rd/p/000000304.000019299.html"
-            />
-            <NewsList
-              title="2020/10/09：音楽ライブ配信手数料、ずっと無料。音楽業界を支える配信プラットフォームを開発。渋谷や下北沢で複数ライブハウスを展開するTOOS CORP. −チケット販売・動画視聴ほか機能充実の「Qumomee」 −"
-              url="https://prtimes.jp/main/html/rd/p/000000001.000067245.html"
-            />
-            <NewsList
-              title="2020/07/07：文化庁による新たな芸術支援、7月10日に受付開始。最高で150万円"
-              url="https://bijutsutecho.com/magazine/news/headline/22294"
-            />
-            <NewsList
-              title="2020/06/24：【東京都知事選候補者へ聞きたいこと】縮小営業を余儀なくされているライブハウス/クラブに関しての対応を聞きました。"
-              url="http://save-our-space.org/tokyogovernorelection2020"
-            />
-            <NewsList
-              title="2020/06/23：ライブハウスを救え！！東京クリーン消毒株式会社が、コロナ危機のライブハウスに向けて、無料除菌サービスを開始！！！"
-              url="https://www.asahi.com/and_M/pressrelease/pre_13376604"
-            />
-            <NewsList
-              title="2020/06/19：「とにかく長かった」　都内のライブハウス、休業要請全面解除で3カ月ぶり再開"
-              url="https://mainichi.jp/articles/20200619/k00/00m/040/336000c"
-            />
-            <NewsList
-              title="2020/06/16：新型コロナ　ライブハウス助成へ　杉並区、法人最大４０万円　／東京"
-              url="https://mainichi.jp/articles/20200616/ddl/k13/040/009000c"
-            />
-          </ul>
+          <table class="table">
+            <tbody>
+              <NewsList
+                date="2020/10/09"
+                title="CAMPFIRE「新型コロナウイルスサポートプログラム」、KDDIと連携し、本日よりクラウドファンディング手数料 完全無償化を再開"
+                url="https://prtimes.jp/main/html/rd/p/000000304.000019299.html"
+              />
+              <NewsList
+                date="2020/10/09"
+                title="音楽ライブ配信手数料、ずっと無料。音楽業界を支える配信プラットフォームを開発。渋谷や下北沢で複数ライブハウスを展開するTOOS CORP. −チケット販売・動画視聴ほか機能充実の「Qumomee」 −"
+                url="https://prtimes.jp/main/html/rd/p/000000001.000067245.html"
+              />
+              <NewsList
+                date="2020/07/07"
+                title="文化庁による新たな芸術支援、7月10日に受付開始。最高で150万円"
+                url="https://bijutsutecho.com/magazine/news/headline/22294"
+              />
+              <NewsList
+                date="2020/06/24"
+                title="【東京都知事選候補者へ聞きたいこと】縮小営業を余儀なくされているライブハウス/クラブに関しての対応を聞きました。"
+                url="http://save-our-space.org/tokyogovernorelection2020"
+              />
+              <NewsList
+                date="2020/06/23"
+                title="ライブハウスを救え！！東京クリーン消毒株式会社が、コロナ危機のライブハウスに向けて、無料除菌サービスを開始！！！"
+                url="https://www.asahi.com/and_M/pressrelease/pre_13376604"
+              />
+              <NewsList
+                date="2020/06/19"
+                title="「とにかく長かった」　都内のライブハウス、休業要請全面解除で3カ月ぶり再開"
+                url="https://mainichi.jp/articles/20200619/k00/00m/040/336000c"
+              />
+              <NewsList
+                date="2020/06/16"
+                title="新型コロナ　ライブハウス助成へ　杉並区、法人最大４０万円　／東京"
+                url="https://mainichi.jp/articles/20200616/ddl/k13/040/009000c"
+              />
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -55,9 +64,3 @@ export default {
   }
 }
 </script>
-
-<style>
-.entry {
-  margin: 30px 0;
-}
-</style>

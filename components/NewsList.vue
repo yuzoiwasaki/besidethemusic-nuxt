@@ -1,12 +1,21 @@
 <template>
-  <li class="entry">
-    <a :href="url" target="_blank">{{ title }}</a>
-  </li>
+  <tr>
+    <th>
+      {{ date }}
+    </th>
+    <td>
+      <a :href="url" target="_blank">{{ title }}</a>
+    </td>
+  </tr>
 </template>
 
 <script>
 export default {
   props: {
+    date: {
+      type: String,
+      required: true
+    },
     title: {
       type: String,
       required: true
@@ -18,9 +27,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.entry {
-  margin: 30px 0;
-}
-</style>
