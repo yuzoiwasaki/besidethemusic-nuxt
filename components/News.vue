@@ -13,7 +13,7 @@
           <table class="table">
             <tbody>
               <NewsList
-                v-for="news in news_list"
+                v-for="news in news_data"
                 :date="news.date"
                 :title="news.title"
                 :url="news.url"
@@ -28,7 +28,7 @@
 
 <script>
 import NewsList from '@/components/NewsList.vue'
-import news_list from '@/assets/data/news.json'
+import news_data from '@/assets/data/news.json'
 
 export default {
   components: {
@@ -36,7 +36,7 @@ export default {
   },
   data () {
     return {
-      news_list: news_list
+      news_data: news_data
     }
   }
 }
