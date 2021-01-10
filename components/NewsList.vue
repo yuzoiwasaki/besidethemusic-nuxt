@@ -27,3 +27,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+td a {
+  color: #363636;
+}
+</style>
