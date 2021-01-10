@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style scoped>
-td a {
+tr td a {
   color: #4a4a4a;
 }
 </style>
