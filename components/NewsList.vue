@@ -30,6 +30,6 @@ export default {
 
 <style scoped>
 td a {
-  color: #363636;
+  color: #4a4a4a;
 }
 </style>
