@@ -16,16 +16,13 @@ import Vue from 'vue'
 export default Vue.extend({
   props: {
     title: {
-      type: String,
-      required: true
+      type: String
     },
     caption: {
-      type: String,
-      required: true
+      type: String
     },
     projectId: {
-      type: String,
-      requred: true
+      type: String
     }
   },
   computed: {

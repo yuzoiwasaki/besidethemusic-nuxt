@@ -15,16 +15,13 @@ import Vue from 'vue'
 export default Vue.extend({
   props: {
     date: {
-      type: String,
-      required: true
+      type: String
     },
     title: {
-      type: String,
-      required: true
+      type: String
     },
     url: {
-      type: String,
-      requred: true
+      type: String
     }
   }
 })
