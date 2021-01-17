@@ -15,9 +15,18 @@ import Vue from 'vue'
 
 export default Vue.extend({
   props: {
-    title: String,
-    caption: String,
-    projectId: String
+    title: {
+      type: String,
+      required: true
+    },
+    caption: {
+      type: String,
+      required: true
+    },
+    projectId: {
+      type: String,
+      requred: true
+    }
   },
   computed: {
     projectUrl(): string {
