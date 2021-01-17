@@ -33,12 +33,17 @@ import ProjectCardMotiongallery from '@/components/ProjectCardMotiongallery.vue'
 import campfire_projects from '@/assets/data/projects/campfire.json'
 import motiongallery_projects from '@/assets/data/projects/motiongallery.json'
 
+interface Projects {
+  campfire_projects: array
+  motiongallery_projects: array
+}
+
 export default Vue.extend({
   components: {
     ProjectCardCampfire,
     ProjectCardMotiongallery
   },
-  data () {
+  data(): Projects {
     return {
       campfire_projects: campfire_projects,
       motiongallery_projects: motiongallery_projects
