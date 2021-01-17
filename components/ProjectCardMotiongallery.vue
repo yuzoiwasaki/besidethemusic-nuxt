@@ -29,7 +29,7 @@ export default Vue.extend({
     }
   },
   computed: {
-    projectUrl(): string {
+    projectUrl: function() {
       return 'https://motion-gallery.net/projects/' + this.projectId + '/widget';
     }
   }

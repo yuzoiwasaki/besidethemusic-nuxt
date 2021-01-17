@@ -29,7 +29,7 @@ export default Vue.extend({
     }
   },
   computed: {
-    projectUrl(): string {
+    projectUrl: function() {
       return 'https://camp-fire.jp/projects/' + this.projectId + '/widget';
     }
   }
