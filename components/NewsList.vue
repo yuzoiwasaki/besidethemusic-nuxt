@@ -14,15 +14,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   props: {
-    date: {
-      type: String
-    },
-    title: {
-      type: String
-    },
-    url: {
-      type: String
-    }
+    date: String,
+    title: String,
+    url: String
   }
 })
 </script>
