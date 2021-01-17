@@ -31,11 +31,15 @@ import Vue from 'vue'
 import NewsList from '@/components/NewsList.vue'
 import news_data from '@/assets/data/news.json'
 
+interface NewsData {
+  news_data: array
+}
+
 export default Vue.extend({
   components: {
     NewsList
   },
-  data () {
+  data(): NewsData {
     return {
       news_data: news_data
     }
