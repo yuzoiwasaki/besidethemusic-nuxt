@@ -26,13 +26,14 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue'
 import ProjectCardCampfire from '@/components/ProjectCardCampfire.vue'
 import ProjectCardMotiongallery from '@/components/ProjectCardMotiongallery.vue'
 import campfire_projects from '@/assets/data/projects/campfire.json'
 import motiongallery_projects from '@/assets/data/projects/motiongallery.json'
 
-export default {
+export default Vue.extend({
   components: {
     ProjectCardCampfire,
     ProjectCardMotiongallery
@@ -43,7 +44,7 @@ export default {
       motiongallery_projects: motiongallery_projects
     }
   }
-}
+})
 </script>
 
 <style scoped>

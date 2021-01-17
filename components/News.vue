@@ -26,11 +26,12 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue'
 import NewsList from '@/components/NewsList.vue'
 import news_data from '@/assets/data/news.json'
 
-export default {
+export default Vue.extend({
   components: {
     NewsList
   },
@@ -39,5 +40,5 @@ export default {
       news_data: news_data
     }
   }
-}
+})
 </script>

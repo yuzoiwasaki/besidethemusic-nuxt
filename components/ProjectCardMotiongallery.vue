@@ -10,8 +10,10 @@
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
   props: {
     title: {
       type: String,
@@ -31,7 +33,7 @@ export default {
       return 'https://motion-gallery.net/projects/' + this.projectId + '/widget';
     }
   }
-}
+})
 </script>
 
 <style scoped>

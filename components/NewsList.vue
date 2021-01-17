@@ -9,8 +9,10 @@
   </tr>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
   props: {
     date: {
       type: String,
@@ -25,7 +27,7 @@ export default {
       requred: true
     }
   }
-}
+})
 </script>
 
 <style scoped>
