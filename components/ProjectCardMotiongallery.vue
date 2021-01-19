@@ -13,6 +13,8 @@
 <script lang="ts">
 import Vue from 'vue'
 
+const SITE_URL = 'https://motion-gallery.net'
+
 export default Vue.extend({
   props: {
     title: String,
@@ -21,7 +23,7 @@ export default Vue.extend({
   },
   computed: {
     projectUrl(): string {
-      return 'https://motion-gallery.net/projects/' + this.projectId + '/widget';
+      return SITE_URL + '/projects/' + this.projectId + '/widget';
     }
   }
 })
