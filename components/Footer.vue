@@ -12,7 +12,7 @@
   </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .section a {
   color: #fff;
 }

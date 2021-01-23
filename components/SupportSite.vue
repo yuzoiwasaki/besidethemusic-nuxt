@@ -86,7 +86,7 @@
   </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 #support-site {
   padding-top: 9rem;
 }
