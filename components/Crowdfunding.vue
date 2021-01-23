@@ -48,8 +48,10 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-@media screen and (max-width: 768px) {
-  #crowdfunding {
+@import '~/assets/styles/mixins';
+
+#crowdfunding {
+  @include sp {
     padding-top: 0;
   }
 }

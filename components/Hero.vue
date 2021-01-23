@@ -18,15 +18,15 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/styles/mixins';
+
 #main-visual {
   background: url("/images/main2_pc.jpg") center 0 no-repeat;
   background-size: cover;
   min-height: 700px;
   background-position: bottom;
-}
 
-@media screen and (max-width: 768px) {
-  #main-visual {
+  @include sp {
     background: url("/images/main2_sp.jpg") center 0 no-repeat;
     background-size: cover;
     min-height: 600px;

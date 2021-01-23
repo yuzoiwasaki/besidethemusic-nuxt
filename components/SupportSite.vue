@@ -87,12 +87,24 @@
 </template>
 
 <style lang="scss" scoped>
+@import '~/assets/styles/mixins';
+
 #support-site {
   padding-top: 9rem;
+
+  @include sp {
+    padding-top: 6rem;
+  }
 }
 
 .sites {
   margin-bottom: 5rem !important;
+}
+
+.savethelivehouse-logo {
+  @include sp {
+    margin-bottom: 30px;
+  }
 }
 
 .saveourspace-logo {
@@ -106,18 +118,8 @@
 .image.container {
   height: 256px;
   width: 256px;
-}
 
-@media screen and (max-width: 768px) {
-  #support-site {
-    padding-top: 6rem;
-  }
-
-  .savethelivehouse-logo {
-    margin-bottom: 30px;
-  }
-
-  .image.container {
+  @include sp {
     height: 128px;
     width: 128px;
   }

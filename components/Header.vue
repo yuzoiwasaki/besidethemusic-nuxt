@@ -31,6 +31,7 @@
 
 <style lang="scss" scoped>
 @import '~/assets/styles/variables';
+@import '~/assets/styles/mixins';
 
 .navbar {
   background-color: transparent;
@@ -44,8 +45,8 @@
   background-color: $color-black;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar-brand {
+.navbar-brand {
+  @include sp {
     justify-content: center;
   }
 }
