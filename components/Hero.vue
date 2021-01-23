@@ -17,7 +17,7 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #main-visual {
   background: url("/images/main2_pc.jpg") center 0 no-repeat;
   background-size: cover;
