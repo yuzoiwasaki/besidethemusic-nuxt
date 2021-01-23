@@ -22,7 +22,9 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/styles/variables';
+
 tr td a {
-  color: #4a4a4a;
+  color: $text-color-black;
 }
 </style>

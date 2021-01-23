@@ -30,16 +30,18 @@
 </template>
 
 <style lang="scss" scoped>
+@import '~/assets/styles/variables';
+
 .navbar {
   background-color: transparent;
 }
 
 .navbar a {
-  color: #fff;
+  color: $color-white;
 }
 
 .navbar a:hover, a:visited {
-  background-color: #000;
+  background-color: $color-black;
 }
 
 @media screen and (max-width: 768px) {

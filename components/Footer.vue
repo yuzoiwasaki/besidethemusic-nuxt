@@ -13,7 +13,9 @@
 </template>
 
 <style lang="scss" scoped>
+@import '~/assets/styles/variables';
+
 .section a {
-  color: #fff;
+  color: $color-white;
 }
 </style>
