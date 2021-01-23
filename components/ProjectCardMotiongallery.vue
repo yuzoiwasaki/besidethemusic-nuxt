@@ -29,7 +29,7 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .has-padding-30 {
   padding: 30px !important;
 }

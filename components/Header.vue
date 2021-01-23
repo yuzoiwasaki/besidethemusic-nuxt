@@ -29,7 +29,7 @@
   </nav>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .navbar {
   background-color: transparent;
 }

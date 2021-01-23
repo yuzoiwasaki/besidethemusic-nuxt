@@ -21,7 +21,7 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 tr td a {
   color: #4a4a4a;
 }

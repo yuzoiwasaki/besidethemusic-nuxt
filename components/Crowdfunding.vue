@@ -47,7 +47,7 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 @media screen and (max-width: 768px) {
   #crowdfunding {
     padding-top: 0;
