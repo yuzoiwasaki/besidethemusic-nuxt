@@ -35,14 +35,15 @@
 
 .navbar {
   background-color: transparent;
-}
 
-.navbar a {
-  color: $color-white;
-}
+  a {
+    color: $color-white;
 
-.navbar a:hover, a:visited {
-  background-color: $color-black;
+    &:hover,
+    &:visited {
+      background-color: $color-black;
+    }
+  }
 }
 
 .navbar-brand {
