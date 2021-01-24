@@ -25,6 +25,15 @@ executors:
     working_directory: ~/besidethemusic
 
 jobs:
+  test:
+    executor:
+      name: aws-cli
+    steps:
+      - checkout
+      - yarn_install
+      - run:
+          command: |
+            yarn generate
   upload:
     executor:
       name: aws-cli
@@ -55,11 +64,16 @@ jobs:
             CLOUDFRONT_DISTRIBUTION_ID: << parameters.cloudfront_distribution_id >>
 
 workflows:
+  test:
+    jobs:
+      - test:
+          name: test
   deploy:
     jobs:
       - upload:
           name: upload
           s3_bucket_name: besidethemusic-production
+          requires: [test]
           filters:
             branches:
               only: [master]
