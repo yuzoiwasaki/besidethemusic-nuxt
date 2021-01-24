@@ -20,6 +20,8 @@ commands:
 
 executors:
   default:
+    docker:
+      - image: circleci/classic
     working_directory: ~/besidethemusic
   aws-cli:
     docker:
