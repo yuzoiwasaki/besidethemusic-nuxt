@@ -68,8 +68,16 @@ workflows:
     jobs:
       - test:
           name: test
+          filters:
+            branches:
+              ignore: [master]
   deploy:
     jobs:
+      - test:
+          name: test
+          filters:
+            branches:
+              only: [master]
       - upload:
           name: upload
           s3_bucket_name: besidethemusic-production
