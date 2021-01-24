@@ -19,6 +19,8 @@ commands:
             - ~/.cache/yarn
 
 executors:
+  default:
+    working_directory: ~/besidethemusic
   aws-cli:
     docker:
       - image: amazon/aws-cli
@@ -27,7 +29,7 @@ executors:
 jobs:
   test:
     executor:
-      name: aws-cli
+      name: default
     steps:
       - checkout
       - yarn_install
